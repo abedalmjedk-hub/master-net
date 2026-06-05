@@ -1,28 +1,8 @@
 var MN_SAVED_DATA = {
   "version": "1.0",
-  "savedAt": "2026-06-05 22:53:48",
+  "savedAt": "2026-06-05 23:36:40",
   "cardInventory": {
     "1": [
-      {
-        "username": "\"15069\"",
-        "password": "\"10\""
-      },
-      {
-        "username": "\"14927\"",
-        "password": "\"66\""
-      },
-      {
-        "username": "\"14634\"",
-        "password": "\"07\""
-      },
-      {
-        "username": "\"19010\"",
-        "password": "\"80\""
-      },
-      {
-        "username": "\"13106\"",
-        "password": "\"79\""
-      },
       {
         "username": "\"11945\"",
         "password": "\"39\""
@@ -1238,6 +1218,38 @@ var MN_SAVED_DATA = {
   },
   "orderLogs": [
     {
+      "id": "5145",
+      "package": "بطاقة اليوم السريع (8 ساعات)",
+      "qty": 2,
+      "amount": 2.0,
+      "cardCode": "\"19010\" (باس: \"80\") | \"13106\" (باس: \"79\")",
+      "timestamp": "2026-06-05 23:36:40"
+    },
+    {
+      "id": "5090",
+      "package": "بطاقة اليوم السريع (8 ساعات)",
+      "qty": 1,
+      "amount": 1.0,
+      "cardCode": "\"14634\" (باس: \"07\")",
+      "timestamp": "2026-06-05 23:34:43"
+    },
+    {
+      "id": "3709",
+      "package": "بطاقة اليوم السريع (8 ساعات)",
+      "qty": 1,
+      "amount": 1.0,
+      "cardCode": "\"14927\" (باس: \"66\")",
+      "timestamp": "2026-06-05 23:32:16"
+    },
+    {
+      "id": "7595",
+      "package": "بطاقة اليوم السريع (8 ساعات)",
+      "qty": 1,
+      "amount": 1.0,
+      "cardCode": "\"15069\" (باس: \"10\")",
+      "timestamp": "2026-06-05 23:22:40"
+    },
+    {
       "id": "7332",
       "package": "بطاقة اليوم السريع (8 ساعات)",
       "qty": 1,
@@ -1319,6 +1331,56 @@ var MN_SAVED_DATA = {
     }
   ],
   "usedCards": [
+    {
+      "username": "\"13106\"",
+      "password": "\"79\"",
+      "pkgId": "1",
+      "pkgName": "بطاقة اليوم السريع (8 ساعات)",
+      "orderId": "5145",
+      "buyerPhone": "0599116852",
+      "usedAt": "2026-06-05 23:36:40",
+      "wasInInventory": true
+    },
+    {
+      "username": "\"19010\"",
+      "password": "\"80\"",
+      "pkgId": "1",
+      "pkgName": "بطاقة اليوم السريع (8 ساعات)",
+      "orderId": "5145",
+      "buyerPhone": "0599116852",
+      "usedAt": "2026-06-05 23:36:40",
+      "wasInInventory": true
+    },
+    {
+      "username": "\"14634\"",
+      "password": "\"07\"",
+      "pkgId": "1",
+      "pkgName": "بطاقة اليوم السريع (8 ساعات)",
+      "orderId": "5090",
+      "buyerPhone": "0599116852",
+      "usedAt": "2026-06-05 23:34:43",
+      "wasInInventory": true
+    },
+    {
+      "username": "\"14927\"",
+      "password": "\"66\"",
+      "pkgId": "1",
+      "pkgName": "بطاقة اليوم السريع (8 ساعات)",
+      "orderId": "3709",
+      "buyerPhone": "0599116852",
+      "usedAt": "2026-06-05 23:32:16",
+      "wasInInventory": true
+    },
+    {
+      "username": "\"15069\"",
+      "password": "\"10\"",
+      "pkgId": "1",
+      "pkgName": "بطاقة اليوم السريع (8 ساعات)",
+      "orderId": "7595",
+      "buyerPhone": "0599116852",
+      "usedAt": "2026-06-05 23:22:40",
+      "wasInInventory": true
+    },
     {
       "username": "\"18452\"",
       "password": "\"68\"",
@@ -1420,7 +1482,7 @@ var MN_SAVED_DATA = {
       "wasInInventory": true
     }
   ],
-  "totalRevenue": 12.0,
+  "totalRevenue": 17.0,
   "pendingOrders": [],
   "approvedOrders": {
     "1473": [
@@ -1469,6 +1531,34 @@ var MN_SAVED_DATA = {
       {
         "username": "\"18452\"",
         "password": "\"68\""
+      }
+    ],
+    "7595": [
+      {
+        "username": "\"15069\"",
+        "password": "\"10\""
+      }
+    ],
+    "3709": [
+      {
+        "username": "\"14927\"",
+        "password": "\"66\""
+      }
+    ],
+    "5090": [
+      {
+        "username": "\"14634\"",
+        "password": "\"07\""
+      }
+    ],
+    "5145": [
+      {
+        "username": "\"19010\"",
+        "password": "\"80\""
+      },
+      {
+        "username": "\"13106\"",
+        "password": "\"79\""
       }
     ]
   },
