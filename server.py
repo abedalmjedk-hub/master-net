@@ -6,7 +6,7 @@ from pathlib import Path
 
 # إعدادات الخادم
 PORT = 8000
-DIRECTORY = r"c:/Users/LAPTOP/OneDrive/Desktop/ماستر نت/imad1"
+DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 DELIVERIES_FILE = os.path.join(DIRECTORY, "deliveries.json")
 
 # تأكد من وجود ملف التسليمات
